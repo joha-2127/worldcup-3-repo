@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: rgb(22, 22, 22);
+  color: white;
+  border-radius: 30px;
+  margin: 50px auto;
+}
+.banner-left {
+  padding: 50px;
+}
+.font {
+  font-family: Poppins;
+}
+.banner-left h2 {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 70px;
+}
+.banner-left p {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  margin: 15px 0;
+  max-width: 85%;
+}
+.btn {
+  font-weight: 600;
+  color: white;
+  background: rgb(221, 0, 0);
+  border-radius: 5px;
+  border: none;
+  padding: 15px 25px;
+  cursor: pointer;
+}
+.btn i {
+  width: 24px;
+  height: 24px;
+  margin: 0px 10px;
+}
+.banner-right img {
+  width: 581px;
+  height: 656px;
+  display: block;
+}
+
+/* Upcoming Matches */
+.upcoming-matches {
+  display: flex;
+  padding: 50px 0;
+}
+.upcoming-matches-left {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 10px;
+  border-radius: 10px;
+  background: rgb(22, 22, 22);
+  width: 312px;
+  height: fit-content;
+  margin-top: 10px;
+}
+.upcoming-matches-right {
+  background-color: white;
+}
+.upcoming-matches-left .btn:nth-child(1) {
+  background: rgb(255, 255, 255);
+  color: rgb(22, 22, 22);
+  font-family: Poppins;
+}
+.upcoming-matches-left .btn:nth-child(2) {
+  background: rgb(255, 255, 255);
+  color: rgb(22, 22, 22);
+  font-family: Poppins;
+}
+
+/* card */
+.upcoming-matches-right .card {
+  height: 180px;
+  width: 100%;
+  margin: 10px;
+}
+.upcoming-matches-right .card img {
+  height: 180px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.upcoming-matches-right .card .btn {
+  background-color: white;
+  color: black;
+  border: 1px solid rgb(22, 22, 22);
+  border-radius: 5px;
+  padding: 8px 17px;
+  margin-top: 10px;
+}
+.card-bottom {
+  display: flex;
+  gap: 20px;
+  color: rgba(22, 22, 22, 0.7);
+}
+.upcoming-matches-right .card {
+  width: 312px;
+  height: 362px;
+  border: 1px solid rgb(232, 232, 232);
+}
+.upcoming-matches-right .card h2 {
+  margin: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+.upcoming-matches .card .card-body {
+  padding: 10px;
+}
